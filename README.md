@@ -277,7 +277,34 @@ docs/                  GitHub Pages root
 ### 2 wajahain
 
 1. **Double deployment (asli config bug).** Pages source `Deploy from a branch → main /docs` (legacy) **aur** `pages.yml` Actions-based `actions/deploy-pages` — dono ek hi push par trigger hue, ek hi `github-pages` environment / ek hi site par likh rahe the. GitHub ek waqt me sirf ek Pages build rakhta hai; naya build purane ko cancel karta hai. Isi liye 17:03–17:13 wale runs cancel hue aur 17:14 wala naya build queue me hai.
-2. **GitHub-hosted runner queue.** Us waqt account ki doosri repos me bhi queued runs thin (`Mizanoram3ucatchtv: 4`, `MIZANORATVCAST: 1`), aur free tier par 20 concurrent jobs ki cap hoti hai. 2–10 min ka `queued` normal hai; `cancelled` tab aata hai jab naya build request ya manual cancel ho. Ye **code ki galti nahi**.
+2. **Account-level runner starvation (ye asli blockage hai).** Ye is repo tak seemit NAHI hai:
+
+| Repo | Queued run | Kab se |
+|---|---|---|
+| `Mizanoram3ucatchtv` | `MiTV 24/7 Pro M3U Scanner` ×4 | **07 Nov 19:09 UTC** se (≈22 ghante) |
+| `MIZANORATVCAST` | `24/7 Stream Watchdog Guardian` | 08 Nov 15:42 UTC se |
+| `MIZANORA-TV-LIVE` | CI ×2 + Pages build | 08 Nov 17:20/17:21 UTC se |
+
+Sab ka `runner_id: 0`, `steps: []`, `status: queued`, aur **poore account me `in_progress` = 0**. Pichhle runs `cancelled` / `failure`, aur kisi repo me 25 Oct ke baad koi `success` nahi. `githubstatus.com` par **Actions + Pages dono "All Systems Operational"** → ye GitHub outage nahi, **aapke account** par hai.
+
+Sabse zyada imkaan: **free-tier Actions minutes khatam / spending limit $0** (account par ~40 repos hain, kai me 5-min cron 24/7 → 2000 min/month jaldi khatam), ya phir concurrency slots in atke hue cron runs se bhar gaye hain. Tab GitHub naye runs to bana deta hai par **runner assign nahi karta** — isi liye Pages ka `pages-build-deployment` bhi `pending` rehta hai (wo bhi hosted runner use karta hai, chahe Actions minutes na kate).
+
+**Sandbox token se billing padhne ka permission nahi** (`403 Resource not accessible by integration`), is liye exact minutes main confirm nahi kar saka — ye aapko `https://github.com/settings/billing` me dekhna hoga.
+
+### 🧹 Runner wapas pane ke liye (aapke account par)
+
+```bash
+# 1) Doosri repos ke atke hue queued runs cancel karein
+for r in Mizanoram3ucatchtv MIZANORATVCAST; do
+  gh run list --repo "muaaziqbalvip/$r" --status queued --json databaseId --jq '.[].databaseId' \
+    | xargs -r -I{} gh run cancel {} --repo "muaaziqbalvip/$r"
+done
+
+# 2) Un 24/7 cron workflows ko thori der ke liye disable karein (ya cron 5-min se 30/60-min karein)
+gh workflow list --repo muaaziqbalvip/Mizanoram3ucatchtv
+gh workflow disable <WORKFLOW_ID> --repo muaaziqbalvip/Mizanoram3ucatchtv
+```
+Phir `Settings → Billing and plans → Actions` me **minutes used** aur **spending limit** check karein (agar $0 hai to thoda limit badhayein ya monthly reset ka intezaar karein). Jaise hi runner milega, `0ccc793` wala Pages build apne aap complete ho jayega — naya push karne ki zarurat nahi.
 
 ### ✅ Code me fix (is branch par, PR se `main` me jayega)
 
@@ -287,9 +314,10 @@ docs/                  GitHub Pages root
 
 > ℹ️ Sandbox ka GitHub token **read-only** hai Actions/Pages admin endpoints par (`403 Resource not accessible by integration`), is liye main API se workflow disable / build request / dispatch nahi kar saka. **Neeche wale 3 steps aapko UI/CLI se karne honge** (ya GitHub connection ko write scope ke sath reconnect karein).
 
-### 🔧 Aapke 3 manual steps (2 minute)
+### 🔧 Aapke manual steps (2 minute)
 
-1. **Stuck run cancel ya supersede karein** — koi bhi ek:
+0. **Pehle upar wala 🧹 "Runner wapas pane ke liye" wala cleanup karein** — warna koi bhi run start nahi hoga, chahe kitni baar retry karein. (Billing / spending limit check karein.)
+1. **Stuck run cancel ya supersede karein** — ✅ **ho gaya**: PR #2 merge (`0ccc793`) se naya Pages build trigger hua aur purana queued build auto cancel/errored hua. Ab bas runner ka intezaar hai.
    * `Actions → pages build and deployment → #42503951979 → Cancel run`, phir `Re-run all jobs`, **ya**
    * is fix wali PR ko `main` me **merge** karein → naya push → naya Pages build → purana queued build auto cancel, **ya**
    * `Actions → MIZANORA · Retry Pages Build (manual) → Run workflow`.
