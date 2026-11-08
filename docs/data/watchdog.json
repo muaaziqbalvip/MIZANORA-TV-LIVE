@@ -1,0 +1,31 @@
+{
+ "checked_at": "2026-11-08T11:23:45Z",
+ "heartbeat_age_minutes": 0.0,
+ "stale": true,
+ "action": "report-only",
+ "stale_minutes_limit": 45,
+ "recent_recoveries": 0,
+ "channels": [
+  {
+   "channel": "mizanora",
+   "on_air": true,
+   "stale_minutes": 0.0
+  },
+  {
+   "channel": "mizanora-documentary",
+   "on_air": true,
+   "stale_minutes": 0.0
+  },
+  {
+   "channel": "mizanora-movies",
+   "on_air": true,
+   "stale_minutes": 0.0
+  },
+  {
+   "channel": "mizanora-noor",
+   "on_air": true,
+   "stale_minutes": 0.0
+  }
+ ],
+ "note": "player is deterministic \u2014 a missed tick never stops the channel"
+}

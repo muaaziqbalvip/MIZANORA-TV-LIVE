@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Node (if you ever add tooling)
+node_modules/
+npm-debug.log*
+
+# Local media: GitHub repo me video files mat daalein (100 MB/file, 1 GB repo limit).
+# Real media hamesha external CDN / R2 / S3 URL se aani chahiye.
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.m4v
+*.mp3
+*.ts
+*.m4s
+docs/channels/*/segments/
+docs/_tmp/
+*.log
+!docs/data/broadcast.log

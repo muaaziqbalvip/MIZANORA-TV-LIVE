@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#03130D" />
+<meta name="description" content="MIZANORA Broadcast Network — 24/7 serverless live TV control room powered by GitHub Actions + GitHub Pages." />
+<title>MIZANORA · LIVE CONTROL ROOM</title>
+<link rel="icon" href="assets/brand/logo-mizanora.svg" />
+<link rel="stylesheet" href="assets/css/control-room.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
+<script defer src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+<script defer src="assets/js/core.js"></script>
+<script defer src="assets/js/visuals.js"></script>
+<script defer src="assets/js/playout.js"></script>
+<script defer src="assets/js/epg.js"></script>
+<script defer src="assets/js/settings.js"></script>
+<script defer src="assets/js/app.js"></script>
+</head>
+<body>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-aurora" aria-hidden="true"></div>
+
+<div id="app" class="app-shell">
+
+  <!-- ============================ TOP BAR ============================ -->
+  <header class="topbar panel">
+    <div class="brand-block">
+      <div class="brand-logo3d" id="topLogo"></div>
+      <div class="brand-copy">
+        <div class="brand-name">MIZANORA <span>TV</span></div>
+        <div class="brand-sub">BROADCAST NETWORK · SERVERLESS PLAYOUT v2</div>
+      </div>
+    </div>
+
+    <div class="onair-block">
+      <span class="live-pill"><i></i> LIVE</span>
+      <span class="onair-state" id="onAirState">ON AIR · 24/7</span>
+    </div>
+
+    <div class="clock-rail">
+      <div class="clock-cell"><label>LOCAL / <span id="tzLabel">PKT</span></label><strong id="clockLocal">--:--:--</strong><small id="dateLocal">-- --- ----</small></div>
+      <div class="clock-cell"><label>UTC</label><strong id="clockUtc">--:--:--</strong><small id="dateUtc">-- --- ----</small></div>
+      <div class="clock-cell hijri"><label>HIJRI</label><strong id="clockHijri">--</strong><small id="tzOffset">UTC+05:00</small></div>
+    </div>
+
+    <div class="status-rail" id="statusRail">
+      <div class="led" data-led="encoder"><i></i><span>ENCODER</span></div>
+      <div class="led" data-led="playlist"><i></i><span>PLAYLIST</span></div>
+      <div class="led" data-led="epg"><i></i><span>EPG</span></div>
+      <div class="led" data-led="ads"><i></i><span>ADS</span></div>
+      <div class="led" data-led="heartbeat"><i></i><span>HEARTBEAT</span></div>
+      <div class="led" data-led="fallback"><i></i><span>FALLBACK</span></div>
+    </div>
+
+    <div class="top-actions">
+      <button class="btn ghost" id="btnWatch" title="Open clean viewer">◫ VIEWER</button>
+      <button class="btn ghost" id="btnLinks" title="Live links">⛓ LINKS</button>
+      <button class="btn ghost" id="btnHelp" title="Keyboard shortcuts">?</button>
+      <button class="btn gold" id="btnFull">⛶ FULLSCREEN</button>
+    </div>
+  </header>
+
+  <!-- ============================ LEFT RAIL ============================ -->
+  <aside class="rail rail-left panel" id="railLeft">
+    <div class="rail-head"><span>CHANNEL RACK</span><span class="count" id="channelCount">04</span></div>
+    <div class="channel-list" id="channelList"></div>
+
+    <div class="rail-head sub"><span>AUTO CHAIN / HANDOFF</span><span class="mini">24/7</span></div>
+    <div class="chain-box" id="chainBox"></div>
+
+    <div class="rail-head sub"><span>NETWORK HEALTH</span><span class="mini" id="netState">OK</span></div>
+    <div class="health-box" id="healthBox"></div>
+  </aside>
+
+  <!-- ============================ CENTER STAGE ============================ -->
+  <main class="stage" id="stage">
+
+    <section class="monitor-frame" id="monitorFrame">
+      <div class="frame-label"><span class="rec-dot"></span> PROGRAM MONITOR <b id="monitorCh">CH 01</b> <span class="sep">/</span> <span id="monitorMode">SERVERLESS HLS</span></div>
+      <div class="frame-corner tl"></div><div class="frame-corner tr"></div><div class="frame-corner bl"></div><div class="frame-corner br"></div>
+
+      <div class="screen" id="screen">
+        <canvas id="viz" class="viz-canvas" aria-hidden="true"></canvas>
+        <div class="screen-vignette"></div>
+        <video id="player" playsinline preload="auto"></video>
+        <div class="scanlines"></div>
+
+        <!-- fallback / 3D ident (visible when no video is decoding) -->
+        <div class="ident-layer" id="identLayer">
+          <div class="ident-ring"><div class="ident-logo" id="identLogo"></div></div>
+          <div class="ident-title">MIZANORA <span id="identChannel">NETWORK</span></div>
+          <div class="ident-sub" id="identSub">ON AIR · 24/7 · AUTO PLAYOUT</div>
+          <div class="ident-bars" id="identBars"></div>
+        </div>
+
+        <!-- on-screen graphics -->
+        <div class="osd">
+          <div class="osd-top-left">
+            <div class="osd-tag" id="osdTag">SEGMENT</div>
+            <div class="osd-src" id="osdSrc">MP4 · 00:00</div>
+          </div>
+
+          <div class="bug-stack" id="bugStack">
+            <div class="bug-logo3d" id="bugLogo"></div>
+            <div class="bug-clock3d">
+              <div class="flip-clock" id="bugClock">--:--</div>
+              <div class="bug-date" id="bugDate">-- --- ----</div>
+              <div class="bug-zone" id="bugZone">PKT · UTC+05:00</div>
+            </div>
+          </div>
+
+          <div class="prime-badge" id="primeBadge">★ PRIME TIME</div>
+
+          <div class="lower-third" id="lowerThird">
+            <div class="lt-kicker"><span id="ltKicker">NOW PLAYING</span><span class="lt-rule"></span><span id="ltGenre">GENERAL</span></div>
+            <div class="lt-title" id="ltTitle">Loading channel…</div>
+            <div class="lt-meta">
+              <span id="ltTime">00:00 / 00:00</span>
+              <span id="ltDesc"></span>
+              <span id="ltRating">U</span>
+            </div>
+            <div class="progress"><div class="progress-fill" id="progressFill"></div><div class="progress-ads" id="progressAds"></div></div>
+          </div>
+
+          <div class="next-card" id="nextCard">
+            <div class="nc-label">UP NEXT <span id="nextIn">00:00</span></div>
+            <div class="nc-title" id="nextTitle">—</div>
+            <div class="nc-thumb" id="nextThumb"></div>
+            <div class="nc-meta" id="nextMeta"></div>
+          </div>
+
+          <div class="break-banner" id="breakBanner"><i></i> AD BREAK · <span id="breakCount">00:00</span></div>
+          <div class="tape" id="tape"><div class="tape-inner" id="tapeInner">SHOP SMART ✦ SHOP HALAL ✦ CASH ON DELIVERY ✦</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- transport -->
+    <section class="transport panel">
+      <div class="transport-group">
+        <button class="tbtn" id="btnPlay" title="Play / Pause (Space)">▶</button>
+        <button class="tbtn" id="btnMute" title="Mute (M)">🔊</button>
+        <input type="range" id="volRange" min="0" max="200" value="100" title="Volume" />
+        <span class="tlabel" id="volLabel">100%</span>
+      </div>
+      <div class="transport-group">
+        <button class="tbtn" id="btnSync" title="Re-sync to the deterministic schedule">⟲ SYNC</button>
+        <button class="tbtn" id="btnNext" title="Skip current item (operator)">⏭ NEXT</button>
+        <button class="tbtn" id="btnFallback" title="Force station ident">⚑ IDENT</button>
+        <button class="tbtn" id="btnPip" title="Picture in picture">◧ PIP</button>
+        <button class="tbtn" id="btnScreen" title="Fullscreen player (F)">⛶</button>
+      </div>
+      <div class="transport-group sliders">
+        <label>GAIN <input type="range" id="gainRange" min="0" max="200" value="100" /><b id="gainLabel">1.00</b></label>
+        <label>PITCH <input type="range" id="pitchRange" min="50" max="200" value="100" /><b id="pitchLabel">1.00</b></label>
+      </div>
+      <div class="transport-group right">
+        <span class="chip" id="chipClock">--:--:--</span>
+        <span class="chip ok" id="chipState">AUTO</span>
+      </div>
+    </section>
+
+    <!-- playout timeline -->
+    <section class="timeline panel">
+      <div class="section-head"><span>PLAYOUT TIMELINE · BREAK ORDER</span><div class="legend"><i class="lg trailer"></i>TRAILER <i class="lg ad"></i>AD <i class="lg segment"></i>SEGMENT <i class="lg filler"></i>GAP FILL / REEL</div></div>
+      <div class="timeline-track" id="timelineTrack"></div>
+      <div class="timeline-note" id="timelineNote">Deterministic schedule · anchor 2026-01-01T00:00:00Z</div>
+    </section>
+
+    <!-- lower dock -->
+    <section class="dock">
+      <div class="dock-tabs" id="dockTabs">
+        <button class="active" data-tab="epg">XL EPG · 7 DAYS</button>
+        <button data-tab="queue">UP NEXT QUEUE</button>
+        <button data-tab="logs">BROADCAST LOG</button>
+        <button data-tab="diag">DIAGNOSTICS</button>
+      </div>
+      <div class="dock-body panel">
+        <div class="tab-pane active" id="tab-epg"><div class="epg-toolbar" id="epgToolbar"></div><div class="epg-grid" id="epgGrid"></div></div>
+        <div class="tab-pane" id="tab-queue"><div class="queue-list" id="queueList"></div></div>
+        <div class="tab-pane" id="tab-logs"><div class="log-console" id="logConsole"></div></div>
+        <div class="tab-pane" id="tab-diag"><div class="diag-grid" id="diagGrid"></div></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ RIGHT RAIL / SETTINGS ============================ -->
+  <aside class="rail rail-right panel" id="railRight">
+    <div class="rail-head"><span>MASTER CONTROL</span><span class="mini">SETTINGS</span></div>
+    <div class="settings-tabs" id="settingsTabs"></div>
+    <div class="settings-body" id="settingsBody"></div>
+    <div class="settings-foot">
+      <button class="btn gold wide" id="btnApply">APPLY &amp; RE-SYNC</button>
+      <div class="foot-row">
+        <button class="btn ghost" id="btnExport">↓ EXPORT JSON</button>
+        <button class="btn ghost" id="btnImport">↑ IMPORT</button>
+        <button class="btn ghost" id="btnReset">↺ RESET</button>
+      </div>
+      <button class="btn ghost wide" id="btnJson">⌘ EDIT RAW CONFIG</button>
+      <button class="btn ghost wide" id="btnGithub">☁ SAVE TO GITHUB / DISPATCH</button>
+      <div class="foot-note">Settings browser me save hoti hain (localStorage). Remote changes ke liye config push ya workflow dispatch karein.</div>
+    </div>
+  </aside>
+</div>
+
+<!-- ============================ MODALS ============================ -->
+<div class="modal-backdrop" id="modalBackdrop" hidden>
+  <div class="modal panel" id="modal">
+    <div class="modal-head"><span id="modalTitle">MIZANORA</span><button class="btn ghost" id="modalClose">✕</button></div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-foot" id="modalFoot"></div>
+  </div>
+</div>
+<div class="toast-stack" id="toastStack"></div>
+
+<script>
+  // Boots as soon as the DOM is ready; deferred modules register themselves on MZ.
+  window.addEventListener('DOMContentLoaded', function () { if (window.MZ && MZ.boot) MZ.boot(); });
+</script>
+</body>
+</html>

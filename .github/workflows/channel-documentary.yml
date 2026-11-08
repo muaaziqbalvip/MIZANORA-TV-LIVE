@@ -1,0 +1,86 @@
+name: MIZANORA · DOCUMENTARY · Channel Worker
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Har channel ka ALAG workflow. Apna media download/ready + apna tick karta hai
+# (playout.yml reusable job), phir agle channel ko auto dispatch karta hai:
+#   MIZANORA → DOCS → MOVIES → NOOR → (loop complete) → agla heartbeat tick.
+# `chain=true` + `hop` counter infinite recursion ko rokte hain.
+#
+# Cron yahan jaan-bujh kar nahi lagaya: 4 alag schedules free-tier 2000 min/month
+# kha jate hain. Chain playout.yml se shuru hoti hai. Chaahein to uncomment:
+# on:
+#   schedule:
+#     - cron: '12 */6 * * *'
+# ─────────────────────────────────────────────────────────────────────────────
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'manual | handoff | watchdog'
+        required: false
+        default: 'manual'
+      chain:
+        description: '"true" = apne baad agla channel auto chalao'
+        required: false
+        default: 'true'
+      hop:
+        description: 'chain hop counter'
+        required: false
+        default: '0'
+  repository_dispatch:
+    types: [mizanora-channel-documentary]
+  workflow_call:
+    inputs:
+      reason:
+        type: string
+        required: false
+        default: 'channel-tick'
+      chain:
+        type: string
+        required: false
+        default: 'false'
+      hop:
+        type: string
+        required: false
+        default: '0'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: mizanora-channel-mizanora-documentary
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    name: 'mizanora-documentary · auto download + playout tick'
+    uses: ./.github/workflows/playout.yml
+    with:
+      channel: 'mizanora-documentary'
+      reason: ${{ inputs.reason || github.event.inputs.reason || github.event.client_payload.reason || 'channel-tick' }}
+      chain: 'false'
+      hop: '0'
+    secrets: inherit
+
+  handoff:
+    name: 'Close → auto start next channel'
+    needs: tick
+    if: ${{ (inputs.chain || github.event.inputs.chain || github.event.client_payload.chain || 'false') == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Dispatch movies worker
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+          HOP_IN: ${{ inputs.hop || github.event.inputs.hop || github.event.client_payload.hop || '0' }}
+        run: |
+          HOP=$(( ${HOP_IN:-0} + 1 ))
+          if [ "$HOP" -lt 4 ]; then
+            echo "▶ mizanora-documentary closed → starting channel-movies.yml (hop $HOP)"
+            gh workflow run "channel-movies.yml" --ref "$BRANCH" \
+              -f reason=handoff -f chain=true -f hop="$HOP"
+          else
+            echo "✔ Poora 4-channel chain complete. Agla 24/7 tick playout.yml se auto aayega."
+          fi

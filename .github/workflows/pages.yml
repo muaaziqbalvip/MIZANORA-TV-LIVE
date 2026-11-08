@@ -1,0 +1,43 @@
+name: MIZANORA · Pages Deploy (optional)
+
+# DEFAULT (recommended, 0 Actions minutes):
+#   Repo Settings → Pages → Build and deployment → Deploy from a branch
+#   → branch: main  → folder: /docs.  Har git push par site auto update hoti hai.
+#
+# Agar aap Pages source "GitHub Actions" rakhte hain TAB ye workflow kaam karega.
+# Isko dono tarah ek sath enable mat karein (double deploy). Ye sirf UI files
+# badalne par chalta hai — har 30-min playout tick par Actions minutes kharch
+# nahi karta.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/index.html'
+      - 'docs/watch.html'
+      - 'docs/assets/**'
+      - '.github/workflows/pages.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mizanora-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4

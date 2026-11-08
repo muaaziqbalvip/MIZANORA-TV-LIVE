@@ -1,0 +1,7 @@
+#EXTM3U
+#EXT-X-VERSION:6
+#EXT-X-INDEPENDENT-SEGMENTS
+# MIZANORA: stitcher offline -> emergency HLS master fallback
+# Control Room / watch.html isko local schedule se 24/7 chalata rehta hai.
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,AVERAGE-BANDWIDTH=1800000,RESOLUTION=1280x720,NAME="MIZANORA NETWORK FEED"
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8

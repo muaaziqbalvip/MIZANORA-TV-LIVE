@@ -1,0 +1,67 @@
+name: MIZANORA · 24/7 Watchdog / Auto-Restart
+
+# Heartbeat purana ho jaye (cron miss, runner queue, API outage, quota) to
+# repository_dispatch se playout ko dobara chalata hai. Circuit breaker (max 3
+# recoveries/hour) infinite dispatch loops rokta hai. ~240 Actions min/month.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      stale_minutes:
+        description: 'heartbeat age limit'
+        required: false
+        default: '45'
+      dispatch:
+        description: '"true" = actually re-dispatch'
+        required: false
+        default: 'true'
+  repository_dispatch:
+    types: [mizanora-watchdog]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: mizanora-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Check heartbeat of every channel + self-heal
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          IN_STALE: ${{ inputs.stale_minutes || github.event.inputs.stale_minutes || '45' }}
+          IN_DISPATCH: ${{ inputs.dispatch || github.event.inputs.dispatch || 'true' }}
+        run: |
+          set -euo pipefail
+          ARGS=""
+          if [ "$IN_DISPATCH" = "true" ]; then ARGS="--dispatch"; fi
+          python3 scripts/watchdog.py $ARGS --stale-minutes "$IN_STALE" --max 3
+      - name: Collect recent workflow run health
+        env:
+          GH_TOKEN: ${{ github.token }}
+        continue-on-error: true
+        run: |
+          gh run list --limit 12 --json name,status,conclusion,createdAt \
+            > docs/data/workflow-runs.json || true
+      - name: Publish watchdog report
+        run: |
+          git config user.name "MIZANORA Watchdog"
+          git config user.email "watchdog@mizanora.local"
+          git add docs/data/
+          if git diff --cached --quiet; then
+            echo "✔ heartbeat OK, nothing to publish"
+          else
+            git commit -m "chore(watchdog): heartbeat check $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin "$GITHUB_REF_NAME" || true
+            git push origin "HEAD:$GITHUB_REF_NAME" || true
+          fi

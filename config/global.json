@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "system": "MIZANORA SERVERLESS PLAYPOT / VIRTUAL TRANSMISSION ENGINE",
+  "site_url": "https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE",
+  "brand": {
+    "name": "MIZANORA",
+    "network": "Mizanora Broadcast Network",
+    "tagline": "Shop Smart. Shop Halal.",
+    "owner": "Muaaz Iqbal",
+    "location": "Kasur, Punjab, Pakistan",
+    "logo": "assets/brand/logo-mizanora.svg",
+    "colors": {
+      "emerald": "#12905C",
+      "emerald_deep": "#0B6B45",
+      "emerald_dark": "#04361F",
+      "night": "#03130D",
+      "gold": "#F2C766",
+      "gold_light": "#FFEFC4",
+      "gold_deep": "#C9971E",
+      "danger": "#FF5470",
+      "ok": "#38E8A0"
+    }
+  },
+  "anchor_utc": "2026-01-01T00:00:00Z",
+  "schedule_days": 7,
+  "epg_days": 7,
+  "tick_minutes": 30,
+  "timezone_default": "Asia/Karachi",
+  "hls": {
+    "target_duration": 10,
+    "window_minutes": 60,
+    "window_segments": 24,
+    "stitch_remote_hls": true,
+    "transcode_non_hls": false,
+    "non_hls_fallback_hls": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "fetch_timeout": 8,
+    "fetch_retries": 2,
+    "max_segments_per_source": 90
+  },
+  "watchdog": {
+    "stale_minutes": 45,
+    "max_recovery_dispatches": 3,
+    "incident_limit": 60
+  },
+  "playout": {
+    "max_ads_per_break": 4,
+    "min_ads_per_break": 1,
+    "prime_ad_multiplier": 2,
+    "gap_fill_max_items": 24,
+    "ident_duration": 15,
+    "black_screen_guard": true,
+    "drift_tolerance_seconds": 5,
+    "retries": 3,
+    "on_source_fail": "next",
+    "crossfade_ms": 700
+  },
+  "pages": {
+    "publish_dir": "docs",
+    "playlist_name": "mizanora-tv.m3u",
+    "epg_name": "epg.xml"
+  },
+  "library": {
+    "ads": [
+      { "id": "ad-halal", "title": "MIZANORA Store — Shop Halal", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4", "kind": "mp4", "duration": 15, "advertiser": "MIZANORA", "weight": 3 },
+      { "id": "ad-cod", "title": "Cash on Delivery — Poori Pakistan", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", "kind": "mp4", "duration": 15, "advertiser": "MIZANORA", "weight": 2 },
+      { "id": "ad-quran", "title": "Quran & Hadith Collection", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", "kind": "mp4", "duration": 15, "advertiser": "MIZANORA", "weight": 2 },
+      { "id": "ad-whatsapp", "title": "WhatsApp Support — Order Now", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", "kind": "mp4", "duration": 15, "advertiser": "MIZANORA", "weight": 1 },
+      { "id": "ad-reels", "title": "MIZANORA Reels — Roz Naya", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4", "kind": "mp4", "duration": 15, "advertiser": "MIZANORA", "weight": 1 },
+      { "id": "ad-tools", "title": "Free Tools by MIZANORA", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4", "kind": "mp4", "duration": 60, "advertiser": "MIZANORA", "weight": 1 }
+    ],
+    "trailers": [
+      { "id": "tr-ident", "title": "MIZANORA — Channel Ident", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4", "kind": "mp4", "duration": 12, "type": "ident" },
+      { "id": "tr-prime", "title": "Aaj Raat 8 Bajay — Prime Time", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", "kind": "mp4", "duration": 15, "type": "promo" },
+      { "id": "tr-doc", "title": "Coming Up — Documentary", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", "kind": "mp4", "duration": 15, "type": "promo" },
+      { "id": "tr-movies", "title": "Coming Up — Movie Night", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", "kind": "mp4", "duration": 15, "type": "promo" },
+      { "id": "tr-noor", "title": "Noor — Quran & Hadith", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4", "kind": "mp4", "duration": 15, "type": "promo" },
+      { "id": "tr-hls", "title": "MIZANORA Network Bumper (HLS)", "src": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", "kind": "m3u8", "duration": 20, "type": "bumper" }
+    ],
+    "idents": [
+      { "id": "id-fallback", "title": "MIZANORA — Please Stand By", "src": "assets/brand/ident-studio.jpg", "kind": "image", "duration": 15, "type": "ident" }
+    ]
+  }
+}

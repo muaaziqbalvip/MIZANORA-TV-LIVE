@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#03130D" />
+<title>MIZANORA · LIVE TV</title>
+<link rel="icon" href="assets/brand/logo-mizanora.svg" />
+<link rel="stylesheet" href="assets/css/viewer.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
+<script defer src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+<script defer src="assets/js/core.js"></script>
+<script defer src="assets/js/visuals.js"></script>
+<script defer src="assets/js/playout.js"></script>
+<script defer src="assets/js/epg.js"></script>
+<script defer src="assets/js/watch.js"></script>
+</head>
+<body>
+<div id="tv" class="tv">
+  <canvas id="viz" class="viz"></canvas>
+  <video id="player" playsinline preload="auto"></video>
+  <div class="vignette"></div>
+  <div class="scan"></div>
+
+  <div class="ident" id="ident">
+    <div class="ident-ring"><div class="ident-logo" id="identLogo"></div></div>
+    <div class="ident-title">MIZANORA <span id="identChannel">NETWORK</span></div>
+    <div class="ident-sub" id="identSub">ON AIR · 24/7 · AUTO PLAYOUT</div>
+    <div class="ident-bars" id="identBars"></div>
+  </div>
+
+  <div class="osd">
+    <div class="bug" id="bug">
+      <div class="bug-logo" id="bugLogo"></div>
+      <div class="bug-clock">
+        <div class="flip" id="bugClock">--:--</div>
+        <div id="bugDate">-- --- ----</div>
+        <div id="bugZone">PKT · UTC+05:00</div>
+      </div>
+    </div>
+    <div class="live-pill"><i></i> LIVE <span id="chShort">MZN</span></div>
+    <div class="prime" id="prime">★ PRIME TIME</div>
+    <div class="lower" id="lower">
+      <div class="lower-kicker"><span id="kicker">NOW PLAYING</span><span class="rule"></span><span id="genre">GENERAL</span></div>
+      <div class="lower-title" id="title">Loading channel…</div>
+      <div class="lower-meta"><span id="timing">00:00 / 00:00</span><span id="desc"></span></div>
+      <div class="prog"><div class="prog-fill" id="progFill"></div></div>
+    </div>
+    <div class="next" id="next"><div class="next-label">UP NEXT · <span id="nextIn">00:00</span></div><div class="next-title" id="nextTitle">—</div></div>
+    <div class="tape"><div class="tape-inner" id="tape"></div></div>
+  </div>
+
+  <div class="chrome" id="chrome">
+    <div class="chrome-left"><span class="c-brand">MIZANORA <b>LIVE</b></span></div>
+    <div class="ch-switch" id="chSwitch"></div>
+    <div class="chrome-right">
+      <button id="btnEpg" title="EPG (E)">EPG</button>
+      <button id="btnMute" title="Mute (M)">🔊</button>
+      <button id="btnPip" title="Picture in picture">◧</button>
+      <button id="btnFull" title="Fullscreen (F)">⛶</button>
+      <a href="index.html" title="Control room">⚙ CONTROL ROOM</a>
+    </div>
+  </div>
+
+  <div class="epg-panel" id="epgPanel" hidden>
+    <div class="epg-head"><b>XL EPG · 7 DAYS</b><button id="epgClose">✕</button></div>
+    <div class="epg-toolbar" id="epgToolbar"></div>
+    <div class="epg-grid" id="epgGrid"></div>
+  </div>
+  <div class="toast-stack" id="toastStack"></div>
+</div>
+<script>window.addEventListener('DOMContentLoaded', function(){ if (window.MZ && MZ.bootViewer) MZ.bootViewer(); });</script>
+</body>
+</html>
