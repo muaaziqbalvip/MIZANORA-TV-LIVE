@@ -1,0 +1,52 @@
+name: MIZANORA · Config & Code CI
+
+on:
+  push:
+    paths:
+      - 'config/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'docs/assets/**'
+      - 'docs/index.html'
+      - 'docs/watch.html'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'config/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'docs/assets/**'
+      - 'docs/index.html'
+      - 'docs/watch.html'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Config linter
+        run: python3 scripts/validate_config.py
+      - name: Playout unit tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Deterministic offline tick (must not fail)
+        run: python3 scripts/playout.py --offline --reason ci --strict
+      - name: Generated artifacts sanity
+        run: |
+          test -f docs/master.m3u8
+          test -f docs/data/channels.json
+          test -f docs/data/epg.xml
+          for f in docs/channels/*/live.m3u8; do head -1 "$f" | grep -q '^#EXTM3U' || exit 1; done
+          echo "✔ all HLS playlists valid header"
+      - name: JavaScript syntax
+        run: |
+          for f in docs/assets/js/*.js; do node --check "$f" || exit 1; done
+          echo "✔ all JS modules parse"
+      - name: No generated diff expected from CI tick
+        run: git diff --stat -- docs/ | tail -5

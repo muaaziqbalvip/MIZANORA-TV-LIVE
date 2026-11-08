@@ -1,0 +1,1960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="MIZANORA Serverless Playout 2.0.0" source-info-name="Mizanora Broadcast Network">
+  <channel id="mizanora">
+    <display-name lang="ur">MIZANORA</display-name>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/logo-mizanora.svg" />
+  </channel>
+  <programme start="20261107050000 +0500" stop="20261107060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107060000 +0500" stop="20261107070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261107070000 +0500" stop="20261107080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107080000 +0500" stop="20261107090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107090000 +0500" stop="20261107100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107100000 +0500" stop="20261107110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261107110000 +0500" stop="20261107120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107120000 +0500" stop="20261107130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107130000 +0500" stop="20261107140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107140000 +0500" stop="20261107150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261107150000 +0500" stop="20261107160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107160000 +0500" stop="20261107170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107170000 +0500" stop="20261107180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261107180000 +0500" stop="20261107190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107190000 +0500" stop="20261107200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261107200000 +0500" stop="20261107210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261107210000 +0500" stop="20261107220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261107220000 +0500" stop="20261107230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261107230000 +0500" stop="20261108000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108000000 +0500" stop="20261108010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108010000 +0500" stop="20261108020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108020000 +0500" stop="20261108030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108030000 +0500" stop="20261108040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108040000 +0500" stop="20261108050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261108050000 +0500" stop="20261108060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108060000 +0500" stop="20261108070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108070000 +0500" stop="20261108080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108080000 +0500" stop="20261108090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261108090000 +0500" stop="20261108100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108100000 +0500" stop="20261108110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108110000 +0500" stop="20261108120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261108120000 +0500" stop="20261108130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108130000 +0500" stop="20261108140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108140000 +0500" stop="20261108150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108150000 +0500" stop="20261108160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261108160000 +0500" stop="20261108170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108170000 +0500" stop="20261108180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108180000 +0500" stop="20261108190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108190000 +0500" stop="20261108200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261108200000 +0500" stop="20261108210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261108210000 +0500" stop="20261108220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261108220000 +0500" stop="20261108230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261108230000 +0500" stop="20261109000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109000000 +0500" stop="20261109010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109010000 +0500" stop="20261109020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109020000 +0500" stop="20261109030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261109030000 +0500" stop="20261109040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109040000 +0500" stop="20261109050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109050000 +0500" stop="20261109060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109060000 +0500" stop="20261109070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261109070000 +0500" stop="20261109080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109080000 +0500" stop="20261109090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109090000 +0500" stop="20261109100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261109100000 +0500" stop="20261109110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109110000 +0500" stop="20261109120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109120000 +0500" stop="20261109130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109130000 +0500" stop="20261109140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261109140000 +0500" stop="20261109150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109150000 +0500" stop="20261109160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109160000 +0500" stop="20261109170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109170000 +0500" stop="20261109180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261109180000 +0500" stop="20261109190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109190000 +0500" stop="20261109200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261109200000 +0500" stop="20261109210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261109210000 +0500" stop="20261109220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261109220000 +0500" stop="20261109230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261109230000 +0500" stop="20261110000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110000000 +0500" stop="20261110010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110010000 +0500" stop="20261110020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261110020000 +0500" stop="20261110030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110030000 +0500" stop="20261110040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110040000 +0500" stop="20261110050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110050000 +0500" stop="20261110060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110060000 +0500" stop="20261110070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261110070000 +0500" stop="20261110080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110080000 +0500" stop="20261110090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110090000 +0500" stop="20261110100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110100000 +0500" stop="20261110110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261110110000 +0500" stop="20261110120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110120000 +0500" stop="20261110130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110130000 +0500" stop="20261110140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110140000 +0500" stop="20261110150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110150000 +0500" stop="20261110160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261110160000 +0500" stop="20261110170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110170000 +0500" stop="20261110180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110180000 +0500" stop="20261110190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110190000 +0500" stop="20261110200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261110200000 +0500" stop="20261110210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261110210000 +0500" stop="20261110220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261110220000 +0500" stop="20261110230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261110230000 +0500" stop="20261111000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111000000 +0500" stop="20261111010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261111010000 +0500" stop="20261111020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111020000 +0500" stop="20261111030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111030000 +0500" stop="20261111040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111040000 +0500" stop="20261111050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261111050000 +0500" stop="20261111060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111060000 +0500" stop="20261111070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111070000 +0500" stop="20261111080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111080000 +0500" stop="20261111090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261111090000 +0500" stop="20261111100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261111100000 +0500" stop="20261111110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111110000 +0500" stop="20261111120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111120000 +0500" stop="20261111130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111130000 +0500" stop="20261111140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261111140000 +0500" stop="20261111150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111150000 +0500" stop="20261111160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111160000 +0500" stop="20261111170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111170000 +0500" stop="20261111180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261111180000 +0500" stop="20261111190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111190000 +0500" stop="20261111200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261111200000 +0500" stop="20261111210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261111210000 +0500" stop="20261111220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261111220000 +0500" stop="20261111230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261111230000 +0500" stop="20261112000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112000000 +0500" stop="20261112010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112010000 +0500" stop="20261112020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112020000 +0500" stop="20261112030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261112030000 +0500" stop="20261112040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112040000 +0500" stop="20261112050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112050000 +0500" stop="20261112060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112060000 +0500" stop="20261112070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112070000 +0500" stop="20261112080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261112080000 +0500" stop="20261112090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112090000 +0500" stop="20261112100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112100000 +0500" stop="20261112110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112110000 +0500" stop="20261112120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261112120000 +0500" stop="20261112130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112130000 +0500" stop="20261112140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112140000 +0500" stop="20261112150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112150000 +0500" stop="20261112160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112160000 +0500" stop="20261112170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261112170000 +0500" stop="20261112180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112180000 +0500" stop="20261112190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112190000 +0500" stop="20261112200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261112200000 +0500" stop="20261112210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261112210000 +0500" stop="20261112220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261112220000 +0500" stop="20261112230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261112230000 +0500" stop="20261113000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113000000 +0500" stop="20261113010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261113010000 +0500" stop="20261113020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261113020000 +0500" stop="20261113030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113030000 +0500" stop="20261113040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113040000 +0500" stop="20261113050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113050000 +0500" stop="20261113060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261113060000 +0500" stop="20261113070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113070000 +0500" stop="20261113080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113080000 +0500" stop="20261113090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113090000 +0500" stop="20261113100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261113100000 +0500" stop="20261113110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113110000 +0500" stop="20261113120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113120000 +0500" stop="20261113130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113130000 +0500" stop="20261113140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113140000 +0500" stop="20261113150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261113150000 +0500" stop="20261113160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113160000 +0500" stop="20261113170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113170000 +0500" stop="20261113180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113180000 +0500" stop="20261113190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261113190000 +0500" stop="20261113200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261113200000 +0500" stop="20261113210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261113210000 +0500" stop="20261113220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261113220000 +0500" stop="20261113230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261113230000 +0500" stop="20261114000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114000000 +0500" stop="20261114010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261114010000 +0500" stop="20261114020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114020000 +0500" stop="20261114030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114030000 +0500" stop="20261114040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114040000 +0500" stop="20261114050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261114050000 +0500" stop="20261114060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114060000 +0500" stop="20261114070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261114080000 +0500" stop="20261114090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114090000 +0500" stop="20261114100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114100000 +0500" stop="20261114110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114110000 +0500" stop="20261114120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261114120000 +0500" stop="20261114130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114130000 +0500" stop="20261114140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114140000 +0500" stop="20261114150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114150000 +0500" stop="20261114160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261114160000 +0500" stop="20261114170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114170000 +0500" stop="20261114180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114180000 +0500" stop="20261114190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261114190000 +0500" stop="20261114200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261114200000 +0500" stop="20261114210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261114210000 +0500" stop="20261114220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261114220000 +0500" stop="20261114230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261114230000 +0500" stop="20261115000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261115000000 +0500" stop="20261115010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261115010000 +0500" stop="20261115020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261115020000 +0500" stop="20261115030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <live />
+  </programme>
+  <programme start="20261115030000 +0500" stop="20261115040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261115040000 +0500" stop="20261115050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+</tv>

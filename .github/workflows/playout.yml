@@ -1,0 +1,183 @@
+name: MIZANORA · 24/7 Playout Engine
+
+# ─────────────────────────────────────────────────────────────────────────────
+# THE HEARTBEAT. Har 30 minute me:
+#   config validate → tests → media probe → HLS manifest prefetch →
+#   deterministic schedule + XL EPG + now/next + live.m3u8 + heartbeat →
+#   commit docs/ (GitHub Pages root) → optional channel-chain handoff.
+#
+# Free-tier math: 48 runs/day × 1 billed minute ≈ 1440 min/month (< 2000).
+# Deterministic schedule ka matlab: agar koi tick miss bhi ho jaye to browser
+# playout kabhi nahi rukta. Pages "deploy from branch → /docs" use karein.
+# ─────────────────────────────────────────────────────────────────────────────
+on:
+  schedule:
+    - cron: '0,30 * * * *'
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: 'channel id or "all"'
+        required: false
+        default: 'all'
+      reason:
+        description: 'cron | manual | handoff | watchdog | recovery'
+        required: false
+        default: 'manual'
+      chain:
+        description: '"true" = is tick ke baad channel workers ko auto handoff karo'
+        required: false
+        default: 'false'
+      hop:
+        description: 'chain hop counter (loop protection)'
+        required: false
+        default: '0'
+      offline:
+        description: '"true" = network fetch skip, fallback HLS master'
+        required: false
+        default: 'false'
+  repository_dispatch:
+    types: [mizanora-tick, mizanora-recovery]
+  workflow_call:
+    inputs:
+      channel:
+        type: string
+        required: false
+        default: 'all'
+      reason:
+        type: string
+        required: false
+        default: 'channel-tick'
+      chain:
+        type: string
+        required: false
+        default: 'false'
+      hop:
+        type: string
+        required: false
+        default: '0'
+
+permissions:
+  contents: write
+  actions: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mizanora-playout-${{ inputs.channel || github.event.inputs.channel || github.event.client_payload.channel || 'all' }}
+  cancel-in-progress: false
+
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout broadcast branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate config (0 errors policy)
+        run: python3 scripts/validate_config.py
+
+      - name: Run playout unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Media link pre-flight (health report)
+        continue-on-error: true
+        run: python3 scripts/media_probe.py --timeout 6
+
+      - name: Prefetch HLS manifests (auto content ready)
+        continue-on-error: true
+        run: python3 scripts/prefetch.py --timeout 8
+
+      - name: Generate 24/7 schedule, EPG, HLS, heartbeat
+        env:
+          IN_CHANNEL: ${{ inputs.channel || github.event.inputs.channel || github.event.client_payload.channel || 'all' }}
+          IN_REASON: ${{ inputs.reason || github.event.inputs.reason || github.event.client_payload.reason || 'cron' }}
+          IN_OFFLINE: ${{ inputs.offline || github.event.inputs.offline || 'false' }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          set -euo pipefail
+          ARGS=""
+          if [ -n "$IN_CHANNEL" ] && [ "$IN_CHANNEL" != "all" ]; then ARGS="$ARGS --channel $IN_CHANNEL"; fi
+          if [ "$IN_OFFLINE" = "true" ]; then ARGS="$ARGS --offline"; fi
+          echo "▶ playout channel=$IN_CHANNEL reason=$IN_REASON site=$SITE_URL"
+          python3 scripts/playout.py $ARGS --reason "$IN_REASON" --site-url "$SITE_URL" --strict
+          echo "=== generated ==="
+          ls -lh docs/channels/*/live.m3u8
+          head -8 docs/channels/mizanora/live.m3u8
+
+      - name: Publish artifacts to docs/ (GitHub Pages)
+        env:
+          IN_REASON: ${{ inputs.reason || github.event.inputs.reason || github.event.client_payload.reason || 'cron' }}
+        run: |
+          set -euo pipefail
+          git config user.name "MIZANORA Playout Bot"
+          git config user.email "playout@mizanora.local"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "✔ No artifact changes this tick (content-aware writes)."
+          else
+            git commit -m "chore(playout): 24/7 tick · $IN_REASON · $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin "$GITHUB_REF_NAME" || true
+            git push origin "HEAD:$GITHUB_REF_NAME"
+            echo "✔ docs/ published"
+          fi
+
+      - name: Fault-tolerant fallback (never go dark)
+        if: failure()
+        run: |
+          echo "::warning::Playout tick failed — generating offline fallback artifacts"
+          python3 scripts/playout.py --offline --reason recovery || true
+          python3 scripts/watchdog.py --stale-minutes 1 || true
+
+  recovery:
+    needs: engine
+    if: failure()
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Rebuild deterministic fallback + incident log
+        run: |
+          python3 scripts/playout.py --offline --reason recovery
+          python3 scripts/watchdog.py --stale-minutes 1
+      - name: Push recovery artifacts
+        run: |
+          git config user.name "MIZANORA Playout Bot"
+          git config user.email "playout@mizanora.local"
+          git add docs/
+          git diff --cached --quiet || git commit -m "chore(playout): recovery fallback"
+          git pull --rebase origin "$GITHUB_REF_NAME" || true
+          git push origin "HEAD:$GITHUB_REF_NAME" || true
+      - name: Re-dispatch a fresh tick
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/dispatches" --method POST \
+            -f event_type='mizanora-tick' \
+            -f 'client_payload[reason]=recovery' \
+            -f 'client_payload[channel]=all' || true
+
+  handoff:
+    needs: engine
+    if: ${{ github.event_name != 'workflow_call' && (inputs.chain || github.event.inputs.chain || github.event.client_payload.chain || 'false') == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Auto-start channel worker chain (jab pichla close ho to agla)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          echo "▶ handoff → channel-main.yml"
+          gh workflow run "channel-main.yml" --ref "$BRANCH" \
+            -f reason=handoff -f chain=true -f hop=1

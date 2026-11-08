@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="MIZANORA Serverless Playout 2.0.0" source-info-name="Mizanora Broadcast Network">
+  <channel id="mizanora-movies">
+    <display-name lang="ur">MIZANORA MOVIES</display-name>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/logo-movies.svg" />
+  </channel>
+  <programme start="20261107050000 +0500" stop="20261107070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107070000 +0500" stop="20261107090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107090000 +0500" stop="20261107110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107110000 +0500" stop="20261107130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107130000 +0500" stop="20261107150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107150000 +0500" stop="20261107170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107170000 +0500" stop="20261107190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107190000 +0500" stop="20261107210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261107210000 +0500" stop="20261107230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261107230000 +0500" stop="20261108010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261108010000 +0500" stop="20261108030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108030000 +0500" stop="20261108050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108050000 +0500" stop="20261108070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108070000 +0500" stop="20261108090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108090000 +0500" stop="20261108110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108110000 +0500" stop="20261108130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108130000 +0500" stop="20261108150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108150000 +0500" stop="20261108170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108170000 +0500" stop="20261108190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108190000 +0500" stop="20261108210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261108210000 +0500" stop="20261108230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261108230000 +0500" stop="20261109010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261109010000 +0500" stop="20261109030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109030000 +0500" stop="20261109050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109050000 +0500" stop="20261109070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109070000 +0500" stop="20261109090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109090000 +0500" stop="20261109110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109110000 +0500" stop="20261109130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109130000 +0500" stop="20261109150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109150000 +0500" stop="20261109170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109170000 +0500" stop="20261109190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109190000 +0500" stop="20261109210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261109210000 +0500" stop="20261109230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261109230000 +0500" stop="20261110010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261110010000 +0500" stop="20261110030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110030000 +0500" stop="20261110050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110050000 +0500" stop="20261110070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110070000 +0500" stop="20261110090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110090000 +0500" stop="20261110110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110110000 +0500" stop="20261110130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110130000 +0500" stop="20261110150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110150000 +0500" stop="20261110170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110170000 +0500" stop="20261110190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110190000 +0500" stop="20261110210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261110210000 +0500" stop="20261110230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261110230000 +0500" stop="20261111010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261111010000 +0500" stop="20261111030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111030000 +0500" stop="20261111050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111050000 +0500" stop="20261111070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111070000 +0500" stop="20261111090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111090000 +0500" stop="20261111110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111110000 +0500" stop="20261111130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111130000 +0500" stop="20261111150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111150000 +0500" stop="20261111170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111170000 +0500" stop="20261111190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111190000 +0500" stop="20261111210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261111210000 +0500" stop="20261111230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261111230000 +0500" stop="20261112010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261112010000 +0500" stop="20261112030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112030000 +0500" stop="20261112050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112050000 +0500" stop="20261112070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112070000 +0500" stop="20261112090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112090000 +0500" stop="20261112110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112110000 +0500" stop="20261112130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112130000 +0500" stop="20261112150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112150000 +0500" stop="20261112170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112170000 +0500" stop="20261112190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112190000 +0500" stop="20261112210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261112210000 +0500" stop="20261112230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261112230000 +0500" stop="20261113010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261113010000 +0500" stop="20261113030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113030000 +0500" stop="20261113050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113050000 +0500" stop="20261113070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113070000 +0500" stop="20261113090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113090000 +0500" stop="20261113110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113110000 +0500" stop="20261113130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113130000 +0500" stop="20261113150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113150000 +0500" stop="20261113170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113170000 +0500" stop="20261113190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113190000 +0500" stop="20261113210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261113210000 +0500" stop="20261113230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261113230000 +0500" stop="20261114010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261114010000 +0500" stop="20261114030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114030000 +0500" stop="20261114050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114050000 +0500" stop="20261114070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114070000 +0500" stop="20261114090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114090000 +0500" stop="20261114110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114110000 +0500" stop="20261114130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114130000 +0500" stop="20261114150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114150000 +0500" stop="20261114170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114170000 +0500" stop="20261114190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114190000 +0500" stop="20261114210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261114210000 +0500" stop="20261114230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261114230000 +0500" stop="20261115010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261115010000 +0500" stop="20261115030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261115030000 +0500" stop="20261115050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+</tv>

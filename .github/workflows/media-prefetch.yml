@@ -1,0 +1,55 @@
+name: MIZANORA · Media Prefetch / Auto Content Ready
+
+# "Workflow auto hi sara saman download ker ke ready ho jaye": har roz sab HLS
+# manifests download kar ke docs/data/manifests/ me cache hoti hain. Phir live
+# M3U8 stitcher network ke baghair bhi un segments ko jod sakta hai.
+# Video files repo me nahi aati — sirf chhote text playlists (GitHub limits).
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+    inputs:
+      timeout:
+        description: 'fetch timeout seconds'
+        required: false
+        default: '10'
+  repository_dispatch:
+    types: [mizanora-prefetch]
+
+permissions:
+  contents: write
+
+jobs:
+  prefetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Install ffmpeg (optional transcode path)
+        continue-on-error: true
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg || true
+      - name: Probe all media links
+        continue-on-error: true
+        run: python3 scripts/media_probe.py --timeout 8
+      - name: Download / cache HLS manifests
+        env:
+          IN_TIMEOUT: ${{ inputs.timeout || github.event.inputs.timeout || '10' }}
+        run: python3 scripts/prefetch.py --timeout "$IN_TIMEOUT"
+      - name: Regenerate playlists from cache
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: python3 scripts/playout.py --reason prefetch --site-url "$SITE_URL"
+      - name: Publish cache + reports
+        run: |
+          git config user.name "MIZANORA Prefetch"
+          git config user.email "prefetch@mizanora.local"
+          git add docs/data/
+          if git diff --cached --quiet; then
+            echo "✔ cache unchanged"
+          else
+            git commit -m "chore(prefetch): media manifests ready $(date -u +%Y-%m-%d)"
+            git pull --rebase origin "$GITHUB_REF_NAME" || true
+            git push origin "HEAD:$GITHUB_REF_NAME" || true
+          fi
