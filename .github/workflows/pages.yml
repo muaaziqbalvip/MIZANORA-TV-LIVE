@@ -1,43 +1,57 @@
-name: MIZANORA · Pages Deploy (optional)
+name: MIZANORA · Retry Pages Build (manual)
 
-# DEFAULT (recommended, 0 Actions minutes):
-#   Repo Settings → Pages → Build and deployment → Deploy from a branch
-#   → branch: main  → folder: /docs.  Har git push par site auto update hoti hai.
+# ─────────────────────────────────────────────────────────────────────────────
+# ⚠️ DO NOT re-add a `push:` trigger here.
 #
-# Agar aap Pages source "GitHub Actions" rakhte hain TAB ye workflow kaam karega.
-# Isko dono tarah ek sath enable mat karein (double deploy). Ye sirf UI files
-# badalne par chalta hai — har 30-min playout tick par Actions minutes kharch
-# nahi karta.
+# Is repo me Pages pehle se "Deploy from a branch → main /docs"
+# (build_type: legacy) par set hai. Pehle is workflow me `push` trigger + 
+# actions/deploy-pages tha, to har merge par DO deploy ek saath chalte the:
+#   1) GitHub ka built-in "pages build and deployment" (dynamic, branch source)
+#   2) ye Actions-based deploy job
+# Dono ek hi `github-pages` environment par likhte hain → runs 10+ minute QUEUED
+# rehte the aur phir CANCELLED (17:03 CI + pages.yml + dynamic → 17:13 cancelled).
+#
+# FIX: ab ye workflow SIRF manual hai aur sirf EK kaam karta hai — branch-based
+# Pages ka naya build request karta hai (purana stuck build auto cancel ho jata
+# hai). Normal deployment branch source khud karta hai = 0 Actions minutes.
+#
+# Agar KABHI Pages source "GitHub Actions" me badalna ho to tab alag se
+# configure-pages/upload-pages-artifact/deploy-pages wala job add karein —
+# dono sources kabhi bhi ek sath enable na karein.
+# ─────────────────────────────────────────────────────────────────────────────
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'docs/index.html'
-      - 'docs/watch.html'
-      - 'docs/assets/**'
-      - '.github/workflows/pages.yml'
+    inputs:
+      reason:
+        description: 'why retry?'
+        required: false
+        default: 'stuck build / manual retry'
 
 permissions:
   contents: read
   pages: write
-  id-token: write
-
-concurrency:
-  group: mizanora-pages
-  cancel-in-progress: true
 
 jobs:
-  deploy:
+  rebuild:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Request a fresh Pages build from main /docs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REASON: ${{ inputs.reason || github.event.inputs.reason || 'manual' }}
+        run: |
+          echo "▶ Manual Pages rebuild: $REASON"
+          echo "▶ Purana queued 'pages build and deployment' run auto cancel ho jayega."
+          if gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" > /dev/null 2>&1; then
+            echo "✔ Naya Pages build queue ho gaya. 1–3 minute me site live ho jayegi."
+          else
+            echo "::warning::API se build request nahi gaya — GitHub UI me"
+            echo "::warning::Settings → Pages → source dobara Save karein ya Actions me"
+            echo "::warning::'pages build and deployment' run par Re-run all jobs dabayein."
+          fi
+      - name: Show latest Pages build status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        continue-on-error: true
+        run: gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq '{status,commit,created_at,error}'

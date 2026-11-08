@@ -12,7 +12,7 @@
 | **XMLTV EPG (7 days)** | `https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/data/epg.xml` |
 | **Network master** | `https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/master.m3u8` |
 
-> ⚠️ Ye links tab live hongi jab aap **Pages enable** karein aur branch ko `main` me merge karein (neeche Step 1–3).
+> ✅ **Status (08 Nov 2026, 17:18 UTC):** PR #1 `main` me **merge** ho chuka hai, Pages **ON** hai (`main /docs`). Magar pehla Pages build `building`/`queued` tha — wajah aur fix neeche **[🩺 Troubleshooting](#-troubleshooting-workflows-queued--pages-build-cancelled)** me hai. Branch-based Pages build complete hone par ye links live honge.
 
 ---
 
@@ -66,17 +66,14 @@ Third-party IPTV players (VLC, Tivimate, Kodi) ke liye `live.m3u8` har tick par 
 
 ## 🚀 Quick start (5 minute)
 
-### Step 1 — Branch → `main`
-Ye kaam `arena/20dc23ad-mizanora-tv-live` branch par hai. **Scheduled workflows sirf default branch (`main`) se chalte hain**, is liye PR merge karein:
-```bash
-gh pr create --base main --head arena/20dc23ad-mizanora-tv-live \
-  --title "MIZANORA 24/7 Live TV Engine" --fill
-gh pr merge <number> --merge
-```
+### Step 1 — Branch → `main` ✅ HO GAYA
+PR #1 merge ho chuka hai (`6e26176`). **Scheduled workflows sirf default branch (`main`) se chalte hain** — is liye aage ki har fix bhi PR se `main` me jani chahiye.
 
-### Step 2 — GitHub Pages ON (0 Actions minutes)
-`Repo Settings → Pages → Build and deployment → Deploy from a branch → main / (root) folder: **/docs** → Save`.
-*(Agar aap "GitHub Actions" source pasand karte hain to `pages.yml` pehle se hai — dono ek sath enable na karein.)*
+### Step 2 — GitHub Pages ON (0 Actions minutes) ✅ HO GAYA
+`Settings → Pages → Deploy from a branch → main /docs` set hai (`build_type: legacy`, `status: building`).
+`docs/.nojekyll` bhi add hai taake Jekyll build skip ho aur JSON/M3U8 files waise ki waise serve hon.
+
+> ⛔ **Sirf EK deploy mechanism.** `pages.yml` ab **manual-only** hai (sirf `workflow_dispatch`). Pehle usme `push` trigger tha → do deploy ek saath chal kar cancel/queue ho rahe the. Agar aap Actions UI me "MIZANORA · Pages Deploy" ya "MIZANORA · Retry Pages Build" ko `push` par wapas chalayenge to wahi problem lautegi.
 
 ### Step 3 — Workflow permissions
 `Settings → Actions → General → Workflow permissions → **Read and write permissions**` ✅ (bot ko `docs/` push karna hai).
@@ -128,7 +125,7 @@ config/channels.json ─┴─► scripts/lib_playout.py  (deterministic engine)
    channel-{main,documentary,movies,noor}.yml … handoff chain
    watchdog.yml ………… stale heartbeat → repository_dispatch → restart
    media-prefetch.yml  daily manifest download / cache
-   pages.yml ……………… optional Actions-based Pages deploy
+   pages.yml ……………… MANUAL "Retry Pages Build" (koi auto push trigger NAHI)
    ci.yml …………………… config lint + 19 tests + JS syntax
 ```
 
@@ -260,17 +257,73 @@ docs/                  GitHub Pages root
 
 ---
 
+## 🩺 Troubleshooting: workflows QUEUED / Pages build CANCELLED
+
+### Kya dekha gaya (real data, 08 Nov 2026 ~17:03–17:18 UTC)
+
+| Time (UTC) | Run | Result |
+|---|---|---|
+| 17:03:16 | `MIZANORA · Config & Code CI` (push `main`) | queued → **cancelled 17:13:09**, `steps: []` |
+| 17:03:16 | `MIZANORA · Pages Deploy (optional)` (push `main`) | queued → **cancelled 17:13:26**, `steps: []` |
+| 17:09:51 | `pages build and deployment` (dynamic, branch source) | queued → **cancelled 17:13:48** |
+| 17:14:22 | `pages build and deployment` (#42503951979) | **queued**, job `build` = `ubuntu-latest`, `runner_id: 0`, `steps: 0` |
+| — | `GET /pages` | `{"status":"building","build_type":"legacy","source":{"branch":"main","path":"/docs"}}` |
+| — | `GET /actions/runs/{id}/pending_deployments` | `[]` (koi approval nahi atka) |
+| — | `github-pages` environment | branch policy = `main` ✅ (galat branch ka masla nahi) |
+| — | `docs/index.html` on `main` | ✅ maujood (11 KB) |
+
+`steps: []` + `runner_id: 0` ka matlab: **job ko runner hi nahi mila** (queue me baitha tha), config ya code fail nahi hua.
+
+### 2 wajahain
+
+1. **Double deployment (asli config bug).** Pages source `Deploy from a branch → main /docs` (legacy) **aur** `pages.yml` Actions-based `actions/deploy-pages` — dono ek hi push par trigger hue, ek hi `github-pages` environment / ek hi site par likh rahe the. GitHub ek waqt me sirf ek Pages build rakhta hai; naya build purane ko cancel karta hai. Isi liye 17:03–17:13 wale runs cancel hue aur 17:14 wala naya build queue me hai.
+2. **GitHub-hosted runner queue.** Us waqt account ki doosri repos me bhi queued runs thin (`Mizanoram3ucatchtv: 4`, `MIZANORATVCAST: 1`), aur free tier par 20 concurrent jobs ki cap hoti hai. 2–10 min ka `queued` normal hai; `cancelled` tab aata hai jab naya build request ya manual cancel ho. Ye **code ki galti nahi**.
+
+### ✅ Code me fix (is branch par, PR se `main` me jayega)
+
+* `pages.yml` → **sirf `workflow_dispatch`**, koi `push:` trigger nahi. Ab wo "Retry Pages Build" ka manual button hai jo `POST /pages/builds` se branch-based build ko dobara request karta hai (purana stuck build auto cancel).
+* `docs/.nojekyll` → Jekyll skip, tez aur clean static build.
+* `README` me ye section.
+
+> ℹ️ Sandbox ka GitHub token **read-only** hai Actions/Pages admin endpoints par (`403 Resource not accessible by integration`), is liye main API se workflow disable / build request / dispatch nahi kar saka. **Neeche wale 3 steps aapko UI/CLI se karne honge** (ya GitHub connection ko write scope ke sath reconnect karein).
+
+### 🔧 Aapke 3 manual steps (2 minute)
+
+1. **Stuck run cancel ya supersede karein** — koi bhi ek:
+   * `Actions → pages build and deployment → #42503951979 → Cancel run`, phir `Re-run all jobs`, **ya**
+   * is fix wali PR ko `main` me **merge** karein → naya push → naya Pages build → purana queued build auto cancel, **ya**
+   * `Actions → MIZANORA · Retry Pages Build (manual) → Run workflow`.
+2. **Actions UI me confirm karein** ke `MIZANORA · Pages Deploy (optional)` / `Retry Pages Build` **sirf manual** hai; agar purana `push` trigger wala run dikhe to use disable kar dein. Pages source **sirf** `Deploy from a branch → main /docs` rahe.
+3. **Workflow permissions**: `Settings → Actions → General → Workflow permissions → Read and write permissions` ✅ — warna `playout.yml` bot `docs/` push nahi kar payega (ye 24/7 heartbeat ke liye zaroori hai).
+
+### ⏰ "24/7 workflow abhi kyun nahi chala?"
+
+* `playout.yml` cron `0,30 * * * *` → pehla scheduled run merge ke baad **agli :00 ya :30** par (17:30 UTC / 22:30 PKT). Abhi tak koi `playout`/`watchdog` run hona hi nahi tha — ye **normal** hai, koi failure nahi.
+* `watchdog.yml` `17 */3 * * *` → agla 20:17 UTC. `media-prefetch.yml` roz 03:23 UTC.
+* Chahein to foran test karein: `Actions → 24/7 Playout Engine → Run workflow` me `chain=true`.
+
+### Site live hai ya nahi check karein
+```bash
+gh api repos/muaaziqbalvip/MIZANORA-TV-LIVE/pages --jq '{status,source}'
+gh api repos/muaaziqbalvip/MIZANORA-TV-LIVE/pages/builds/latest --jq '{status,commit,error}'
+# status "built" aana chahiye
+```
+*(Sandboxes me `*.github.io` outbound blocked ho sakta hai — `curl` yahan `000` dega, ye site down hone ki nishani nahi; API status hi sach hai.)*
+
+---
+
 ## 🧭 Ab aapko kya karna baqi hai (clean checklist)
 
-1. ✅ **Branch → `main` merge** (schedules activate) — PR bana ke dein.
-2. ✅ **Pages ON**: `main /docs`.
-3. ✅ **Workflow permissions**: Read & Write.
-4. ✅ **Run** `playout.yml` with `chain=true`.
-5. 🔲 **Apne asli media links** daalein (demo test videos replace karein) — `config/channels.json`.
-6. 🔲 **Apna logo** `logo_url` ya `docs/assets/brand/` me.
-7. 🔲 **Channel names / prime windows / timezone** apne hisaab se.
-8. 🔲 (optional) **R2/CDN + ffmpeg** lagayein agar third-party IPTV players me true continuous 24/7 chahiye.
-9. 🔲 (optional) Custom domain + Cloudflare Pages ke aage caching.
+1. ✅ **Branch → `main` merge** — PR #1 done.
+2. ✅ **Pages ON**: `main /docs` — done (build complete hone ka intezaar hai).
+3. 🔲 **Workflow permissions**: Read & Write — confirm karein.
+4. 🔲 **Upar wale 3 troubleshooting steps** → stuck Pages build ko naya build dein.
+5. 🔲 **Run** `playout.yml` with `chain=true` (ya 17:30 UTC ka cron ka intezaar).
+6. 🔲 **Apne asli media links** daalein (demo test videos replace karein) — `config/channels.json`.
+7. 🔲 **Apna logo** `logo_url` ya `docs/assets/brand/` me.
+8. 🔲 **Channel names / prime windows / timezone** apne hisaab se.
+9. 🔲 (optional) **R2/CDN + ffmpeg** agar third-party IPTV players me true continuous 24/7 chahiye.
+10. 🔲 (optional) Custom domain + Cloudflare caching.
 
 ---
 
