@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-08T11:23:45Z",
- "mode": "offline",
+ "generated_at": "2026-11-10T14:10:59Z",
+ "mode": "online",
  "summary": {
   "total": 13,
-  "ok": 0,
-  "failed": 0,
-  "unchecked": 13
+  "ok": 2,
+  "failed": 11,
+  "unchecked": 0
  },
  "sources": [
   {
@@ -18,10 +18,11 @@
     "mizanora-movies",
     "mizanora-noor"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
@@ -31,10 +32,11 @@
     "mizanora",
     "mizanora-movies"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
@@ -46,10 +48,12 @@
     "mizanora-noor",
     "library.trailers"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": true,
+   "status": 200,
+   "method": "HEAD",
+   "content_type": "audio/mpegurl",
+   "content_length": "752",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
@@ -60,10 +64,11 @@
     "mizanora-documentary",
     "mizanora-noor"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://dl8.webmfiles.org/big-buck-bunny_trailer.webm",
@@ -72,10 +77,11 @@
    "owners": [
     "mizanora"
    ],
-   "ok": null,
+   "ok": false,
    "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "method": "GET",
+   "error": "URLError",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
@@ -85,10 +91,11 @@
     "mizanora-documentary",
     "mizanora-movies"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
@@ -97,10 +104,12 @@
    "owners": [
     "mizanora-movies"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": true,
+   "status": 200,
+   "method": "HEAD",
+   "content_type": "application/x-mpegURL",
+   "content_length": "6291",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
@@ -110,10 +119,11 @@
     "library.ads",
     "library.trailers"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
@@ -123,10 +133,11 @@
     "library.ads",
     "library.trailers"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
@@ -136,10 +147,11 @@
     "library.ads",
     "library.trailers"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
@@ -149,10 +161,11 @@
     "library.ads",
     "library.trailers"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
@@ -162,10 +175,11 @@
     "library.ads",
     "library.trailers"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   },
   {
    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
@@ -174,10 +188,11 @@
    "owners": [
     "library.ads"
    ],
-   "ok": null,
-   "status": 0,
-   "note": "not checked (offline mode)",
-   "checked_at": "2026-11-08T11:23:45Z"
+   "ok": false,
+   "status": 403,
+   "method": "GET",
+   "error": "HTTP Error 403: Forbidden",
+   "checked_at": "2026-11-10T14:10:59Z"
   }
  ]
 }

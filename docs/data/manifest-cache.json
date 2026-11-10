@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-11-08T11:23:45Z",
- "mode": "offline",
+ "generated_at": "2026-11-10T14:11:13Z",
+ "mode": "online",
  "sources": 2,
- "cached": 0,
- "total_segments": 0,
+ "cached": 2,
+ "total_segments": 164,
  "manifests": [
   {
    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-   "cached": false,
-   "segments": 0,
-   "bytes": 0,
-   "duration": 0
+   "cached": true,
+   "segments": 64,
+   "bytes": 752,
+   "duration": 634.6
   },
   {
    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
-   "cached": false,
-   "segments": 0,
-   "bytes": 0,
-   "duration": 0
+   "cached": true,
+   "segments": 100,
+   "bytes": 6291,
+   "duration": 600.0
   }
  ]
 }
