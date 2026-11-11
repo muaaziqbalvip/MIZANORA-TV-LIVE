@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-11T04:11:10Z",
- "heartbeat_age_minutes": 840.0,
+ "checked_at": "2026-11-11T21:10:16Z",
+ "heartbeat_age_minutes": 1859.1,
  "stale": true,
  "action": "dispatched",
  "stale_minutes_limit": 45,
@@ -9,22 +9,22 @@
   {
    "channel": "mizanora",
    "on_air": true,
-   "stale_minutes": 840.0
+   "stale_minutes": 1859.1
   },
   {
    "channel": "mizanora-documentary",
    "on_air": true,
-   "stale_minutes": 840.0
+   "stale_minutes": 1859.1
   },
   {
    "channel": "mizanora-movies",
    "on_air": true,
-   "stale_minutes": 840.0
+   "stale_minutes": 1859.1
   },
   {
    "channel": "mizanora-noor",
    "on_air": true,
-   "stale_minutes": 840.0
+   "stale_minutes": 1859.1
   }
  ],
  "note": "player is deterministic \u2014 a missed tick never stops the channel"
