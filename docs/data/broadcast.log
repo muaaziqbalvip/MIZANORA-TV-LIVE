@@ -7,3 +7,4 @@
 2026-11-08T11:16:15Z | bootstrap | channels=4 | hls=4 | errors=0 | offline=True
 2026-11-08T11:23:44Z | bootstrap | channels=4 | hls=4 | errors=0 | offline=True
 2026-11-10T14:11:13Z | cron      | channels=4 | hls=4 | errors=0 | offline=False
+2026-11-12T22:55:08Z | prefetch  | channels=4 | hls=4 | errors=0 | offline=False
