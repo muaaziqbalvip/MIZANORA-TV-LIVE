@@ -17,250 +17,6 @@
     <display-name lang="ar">MIZANORA NOOR</display-name>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/logo-noor.svg" />
   </channel>
-  <programme start="20261111050000 +0500" stop="20261111060000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
-    <sub-title lang="en">Infotainment</sub-title>
-    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
-    <category lang="en">Infotainment</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Studio</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111060000 +0500" stop="20261111070000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
-    <sub-title lang="en">Tech</sub-title>
-    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
-    <category lang="en">Tech</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Engineering</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111070000 +0500" stop="20261111080000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Documentary window.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111080000 +0500" stop="20261111090000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
-    <sub-title lang="en">Live</sub-title>
-    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
-    <category lang="en">Live</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Network</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <live />
-  </programme>
-  <programme start="20261111090000 +0500" stop="20261111100000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
-    <sub-title lang="en">Live</sub-title>
-    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
-    <category lang="en">Live</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Network</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <live />
-  </programme>
-  <programme start="20261111100000 +0500" stop="20261111110000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Documentary window.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111110000 +0500" stop="20261111120000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
-    <sub-title lang="en">Tech</sub-title>
-    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
-    <category lang="en">Tech</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Engineering</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111120000 +0500" stop="20261111130000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
-    <sub-title lang="en">Infotainment</sub-title>
-    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
-    <category lang="en">Infotainment</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Studio</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111130000 +0500" stop="20261111140000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
-    <sub-title lang="en">Live</sub-title>
-    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
-    <category lang="en">Live</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Network</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <live />
-  </programme>
-  <programme start="20261111140000 +0500" stop="20261111150000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Documentary window.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111150000 +0500" stop="20261111160000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
-    <sub-title lang="en">Tech</sub-title>
-    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
-    <category lang="en">Tech</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Engineering</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111160000 +0500" stop="20261111170000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
-    <sub-title lang="en">Infotainment</sub-title>
-    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
-    <category lang="en">Infotainment</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Studio</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111170000 +0500" stop="20261111180000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
-    <sub-title lang="en">Live</sub-title>
-    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
-    <category lang="en">Live</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Network</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <live />
-  </programme>
-  <programme start="20261111180000 +0500" stop="20261111190000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Documentary window.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111190000 +0500" stop="20261111200000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — Sintel</title>
-    <sub-title lang="en">Cinema</sub-title>
-    <desc lang="ur">Prime Time special presentation.</desc>
-    <category lang="en">Cinema</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <category lang="en">PRIME TIME</category>
-    <previously-shown />
-  </programme>
-  <programme start="20261111200000 +0500" stop="20261111210000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — Sintel</title>
-    <sub-title lang="en">Cinema</sub-title>
-    <desc lang="ur">Prime Time special presentation.</desc>
-    <category lang="en">Cinema</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <category lang="en">PRIME TIME</category>
-    <previously-shown />
-  </programme>
-  <programme start="20261111210000 +0500" stop="20261111220000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — Sintel</title>
-    <sub-title lang="en">Cinema</sub-title>
-    <desc lang="ur">Prime Time special presentation.</desc>
-    <category lang="en">Cinema</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <category lang="en">PRIME TIME</category>
-    <previously-shown />
-  </programme>
-  <programme start="20261111220000 +0500" stop="20261111230000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — Sintel</title>
-    <sub-title lang="en">Cinema</sub-title>
-    <desc lang="ur">Prime Time special presentation.</desc>
-    <category lang="en">Cinema</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <category lang="en">PRIME TIME</category>
-    <previously-shown />
-  </programme>
-  <programme start="20261111230000 +0500" stop="20261112000000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
-    <sub-title lang="en">Infotainment</sub-title>
-    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
-    <category lang="en">Infotainment</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Studio</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112000000 +0500" stop="20261112010000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
-    <sub-title lang="en">Tech</sub-title>
-    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
-    <category lang="en">Tech</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Engineering</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112010000 +0500" stop="20261112020000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Documentary window.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112020000 +0500" stop="20261112030000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
-    <sub-title lang="en">Live</sub-title>
-    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
-    <category lang="en">Live</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Network</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <live />
-  </programme>
-  <programme start="20261112030000 +0500" stop="20261112040000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
-    <sub-title lang="en">Infotainment</sub-title>
-    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
-    <category lang="en">Infotainment</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Studio</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112040000 +0500" stop="20261112050000 +0500" channel="mizanora">
-    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
-    <sub-title lang="en">Tech</sub-title>
-    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
-    <category lang="en">Tech</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Engineering</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
   <programme start="20261112050000 +0500" stop="20261112060000 +0500" channel="mizanora">
     <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
     <sub-title lang="en">Tech</sub-title>
@@ -1969,489 +1725,249 @@
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111050000 +0500" stop="20261111053000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111053000 +0500" stop="20261111060000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111060000 +0500" stop="20261111063000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111063000 +0500" stop="20261111070000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111070000 +0500" stop="20261111073000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111073000 +0500" stop="20261111080000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111080000 +0500" stop="20261111083000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111083000 +0500" stop="20261111090000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111090000 +0500" stop="20261111093000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111093000 +0500" stop="20261111100000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111100000 +0500" stop="20261111103000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111103000 +0500" stop="20261111110000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111110000 +0500" stop="20261111113000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111113000 +0500" stop="20261111120000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111120000 +0500" stop="20261111123000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111123000 +0500" stop="20261111130000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111130000 +0500" stop="20261111133000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111133000 +0500" stop="20261111140000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111140000 +0500" stop="20261111143000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111143000 +0500" stop="20261111150000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111150000 +0500" stop="20261111153000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111153000 +0500" stop="20261111160000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111160000 +0500" stop="20261111163000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111163000 +0500" stop="20261111170000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111170000 +0500" stop="20261111173000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111173000 +0500" stop="20261111180000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111180000 +0500" stop="20261111183000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111183000 +0500" stop="20261111190000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111190000 +0500" stop="20261111193000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111193000 +0500" stop="20261111200000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111200000 +0500" stop="20261111203000 +0500" channel="mizanora-documentary">
-    <title lang="ur">World Feed — HLS Documentary</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Prime documentary feed.</desc>
-    <category lang="en">Documentary</category>
+  <programme start="20261119050000 +0500" stop="20261119060000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Network</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">DOC PRIME</category>
+    <live />
+  </programme>
+  <programme start="20261119060000 +0500" stop="20261119070000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111203000 +0500" stop="20261111210000 +0500" channel="mizanora-documentary">
-    <title lang="ur">World Feed — HLS Documentary</title>
+  <programme start="20261119070000 +0500" stop="20261119080000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119080000 +0500" stop="20261119090000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119090000 +0500" stop="20261119100000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
     <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Prime documentary feed.</desc>
+    <desc lang="ur">Documentary window.</desc>
     <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119100000 +0500" stop="20261119110000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Network</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">DOC PRIME</category>
+    <live />
+  </programme>
+  <programme start="20261119110000 +0500" stop="20261119120000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111210000 +0500" stop="20261111213000 +0500" channel="mizanora-documentary">
-    <title lang="ur">World Feed — HLS Documentary</title>
+  <programme start="20261119120000 +0500" stop="20261119130000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119130000 +0500" stop="20261119140000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
     <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Prime documentary feed.</desc>
+    <desc lang="ur">Documentary window.</desc>
     <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119140000 +0500" stop="20261119150000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Network</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">DOC PRIME</category>
+    <live />
+  </programme>
+  <programme start="20261119150000 +0500" stop="20261119160000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111213000 +0500" stop="20261111220000 +0500" channel="mizanora-documentary">
-    <title lang="ur">World Feed — HLS Documentary</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Prime documentary feed.</desc>
-    <category lang="en">Documentary</category>
+  <programme start="20261119160000 +0500" stop="20261119170000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119170000 +0500" stop="20261119180000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119180000 +0500" stop="20261119190000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Studio</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119190000 +0500" stop="20261119200000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119200000 +0500" stop="20261119210000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119210000 +0500" stop="20261119220000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119220000 +0500" stop="20261119230000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — Sintel</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">Prime Time special presentation.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">PRIME TIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119230000 +0500" stop="20261120000000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Network</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">DOC PRIME</category>
-    <previously-shown />
+    <live />
   </programme>
-  <programme start="20261111220000 +0500" stop="20261111223000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
+  <programme start="20261120000000 +0500" stop="20261120010000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Documentary window.</desc>
+    <category lang="en">Documentary</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Docs</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111223000 +0500" stop="20261111230000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
+  <programme start="20261120010000 +0500" stop="20261120020000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Lab — WebM / MKV Compatibility Slot</title>
+    <sub-title lang="en">Tech</sub-title>
+    <desc lang="ur">MP4 / MKV / M3U8 / WebM / MOV / MPD — har tarah ki media support ka test slot. Agar link na chale to auto fallback chal jata hai.</desc>
+    <category lang="en">Tech</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Engineering</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111230000 +0500" stop="20261111233000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
+  <programme start="20261120020000 +0500" stop="20261120030000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Spotlight — The Big Buck Story</title>
+    <sub-title lang="en">Infotainment</sub-title>
+    <desc lang="ur">MIZANORA flagship hour: kahani, brand aur community ke liye ek cinematic safar.</desc>
+    <category lang="en">Infotainment</category>
     <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111233000 +0500" stop="20261112000000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112000000 +0500" stop="20261112003000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
+    <credits><actor>MIZANORA Studio</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261112003000 +0500" stop="20261112010000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
+  <programme start="20261120030000 +0500" stop="20261120040000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Documentary Hour — Elephants Dream</title>
     <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <desc lang="ur">Documentary window.</desc>
     <category lang="en">Documentary</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Docs</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261112010000 +0500" stop="20261112013000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Nature Files — Big Buck Bunny</title>
-    <sub-title lang="en">Nature</sub-title>
-    <desc lang="ur">Nature files.</desc>
-    <category lang="en">Nature</category>
+  <programme start="20261120040000 +0500" stop="20261120050000 +0500" channel="mizanora">
+    <title lang="ur">MIZANORA Live Feed — HLS Direct</title>
+    <sub-title lang="en">Live</sub-title>
+    <desc lang="ur">Native HLS source — M3U8 stitcher is par seedha kaam karta hai.</desc>
+    <category lang="en">Live</category>
     <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112013000 +0500" stop="20261112020000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112020000 +0500" stop="20261112023000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
+    <credits><actor>MIZANORA Network</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112023000 +0500" stop="20261112030000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112030000 +0500" stop="20261112033000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112033000 +0500" stop="20261112040000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112040000 +0500" stop="20261112043000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112043000 +0500" stop="20261112050000 +0500" channel="mizanora-documentary">
-    <title lang="ur">Inside the Dream — Elephants Dream</title>
-    <sub-title lang="en">Documentary</sub-title>
-    <desc lang="ur">Ek surreal documentary experience.</desc>
-    <category lang="en">Documentary</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Docs</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
+    <live />
   </programme>
   <programme start="20261112050000 +0500" stop="20261112053000 +0500" channel="mizanora-documentary">
     <title lang="ur">Inside the Dream — Elephants Dream</title>
@@ -5841,125 +5357,487 @@
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111050000 +0500" stop="20261111070000 +0500" channel="mizanora-movies">
-    <title lang="ur">Big Buck Bunny — Family Hour</title>
-    <sub-title lang="en">Family</sub-title>
-    <desc lang="ur">Family hour.</desc>
-    <category lang="en">Family</category>
+  <programme start="20261119050000 +0500" stop="20261119053000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
     <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111070000 +0500" stop="20261111090000 +0500" channel="mizanora-movies">
-    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
-    <sub-title lang="en">Sci-Fi</sub-title>
-    <desc lang="ur">Sci-fi special.</desc>
-    <category lang="en">Sci-Fi</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111090000 +0500" stop="20261111110000 +0500" channel="mizanora-movies">
-    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
-    <sub-title lang="en">Sci-Fi</sub-title>
-    <desc lang="ur">Sci-fi special.</desc>
-    <category lang="en">Sci-Fi</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111110000 +0500" stop="20261111130000 +0500" channel="mizanora-movies">
-    <title lang="ur">Big Buck Bunny — Family Hour</title>
-    <sub-title lang="en">Family</sub-title>
-    <desc lang="ur">Family hour.</desc>
-    <category lang="en">Family</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111130000 +0500" stop="20261111150000 +0500" channel="mizanora-movies">
-    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
-    <sub-title lang="en">Sci-Fi</sub-title>
-    <desc lang="ur">Sci-fi special.</desc>
-    <category lang="en">Sci-Fi</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111150000 +0500" stop="20261111170000 +0500" channel="mizanora-movies">
-    <title lang="ur">Big Buck Bunny — Family Hour</title>
-    <sub-title lang="en">Family</sub-title>
-    <desc lang="ur">Family hour.</desc>
-    <category lang="en">Family</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111170000 +0500" stop="20261111190000 +0500" channel="mizanora-movies">
-    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
-    <sub-title lang="en">Sci-Fi</sub-title>
-    <desc lang="ur">Sci-fi special.</desc>
-    <category lang="en">Sci-Fi</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111190000 +0500" stop="20261111210000 +0500" channel="mizanora-movies">
-    <title lang="ur">Big Buck Bunny — Family Hour</title>
-    <sub-title lang="en">Family</sub-title>
-    <desc lang="ur">Family hour.</desc>
-    <category lang="en">Family</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111210000 +0500" stop="20261111230000 +0500" channel="mizanora-movies">
-    <title lang="ur">Sintel — Feature Presentation</title>
-    <sub-title lang="en">Fantasy</sub-title>
-    <desc lang="ur">Movie Night ki feature presentation.</desc>
-    <category lang="en">Fantasy</category>
-    <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
+    <credits><actor>MIZANORA Docs</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <category lang="en">MOVIE NIGHT</category>
     <previously-shown />
   </programme>
-  <programme start="20261111230000 +0500" stop="20261112010000 +0500" channel="mizanora-movies">
-    <title lang="ur">Cinema Feed — HLS Movie</title>
-    <sub-title lang="en">Cinema</sub-title>
-    <desc lang="ur">HLS native movie feed.</desc>
-    <category lang="en">Cinema</category>
+  <programme start="20261119053000 +0500" stop="20261119060000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119060000 +0500" stop="20261119063000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119063000 +0500" stop="20261119070000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119070000 +0500" stop="20261119073000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119073000 +0500" stop="20261119080000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119080000 +0500" stop="20261119083000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119083000 +0500" stop="20261119090000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119090000 +0500" stop="20261119093000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119093000 +0500" stop="20261119100000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119100000 +0500" stop="20261119103000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119103000 +0500" stop="20261119110000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119110000 +0500" stop="20261119113000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119113000 +0500" stop="20261119120000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119120000 +0500" stop="20261119123000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119123000 +0500" stop="20261119130000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119130000 +0500" stop="20261119133000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119133000 +0500" stop="20261119140000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119140000 +0500" stop="20261119143000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119143000 +0500" stop="20261119150000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119150000 +0500" stop="20261119153000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119153000 +0500" stop="20261119160000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119160000 +0500" stop="20261119163000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119163000 +0500" stop="20261119170000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119170000 +0500" stop="20261119173000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119173000 +0500" stop="20261119180000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119180000 +0500" stop="20261119183000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119183000 +0500" stop="20261119190000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119190000 +0500" stop="20261119193000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119193000 +0500" stop="20261119200000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119200000 +0500" stop="20261119203000 +0500" channel="mizanora-documentary">
+    <title lang="ur">World Feed — HLS Documentary</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Prime documentary feed.</desc>
+    <category lang="en">Documentary</category>
     <rating><value>U</value></rating>
     <credits><actor>MIZANORA Network</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <category lang="en">MOVIE NIGHT</category>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">DOC PRIME</category>
     <previously-shown />
   </programme>
-  <programme start="20261112010000 +0500" stop="20261112030000 +0500" channel="mizanora-movies">
-    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
-    <sub-title lang="en">Sci-Fi</sub-title>
-    <desc lang="ur">Sci-fi special.</desc>
-    <category lang="en">Sci-Fi</category>
+  <programme start="20261119203000 +0500" stop="20261119210000 +0500" channel="mizanora-documentary">
+    <title lang="ur">World Feed — HLS Documentary</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Prime documentary feed.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">DOC PRIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119210000 +0500" stop="20261119213000 +0500" channel="mizanora-documentary">
+    <title lang="ur">World Feed — HLS Documentary</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Prime documentary feed.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">DOC PRIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119213000 +0500" stop="20261119220000 +0500" channel="mizanora-documentary">
+    <title lang="ur">World Feed — HLS Documentary</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Prime documentary feed.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">DOC PRIME</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119220000 +0500" stop="20261119223000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
     <rating><value>PG</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
+    <credits><actor>MIZANORA Docs</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261112030000 +0500" stop="20261112050000 +0500" channel="mizanora-movies">
-    <title lang="ur">Big Buck Bunny — Family Hour</title>
-    <sub-title lang="en">Family</sub-title>
-    <desc lang="ur">Family hour.</desc>
-    <category lang="en">Family</category>
+  <programme start="20261119223000 +0500" stop="20261119230000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119230000 +0500" stop="20261119233000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Nature Files — Big Buck Bunny</title>
+    <sub-title lang="en">Nature</sub-title>
+    <desc lang="ur">Nature files.</desc>
+    <category lang="en">Nature</category>
     <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Pictures</actor></credits>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119233000 +0500" stop="20261120000000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120000000 +0500" stop="20261120003000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120003000 +0500" stop="20261120010000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120010000 +0500" stop="20261120013000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120013000 +0500" stop="20261120020000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120020000 +0500" stop="20261120023000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120023000 +0500" stop="20261120030000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120030000 +0500" stop="20261120033000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120033000 +0500" stop="20261120040000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Inside the Dream — Elephants Dream</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Ek surreal documentary experience.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120040000 +0500" stop="20261120043000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120043000 +0500" stop="20261120050000 +0500" channel="mizanora-documentary">
+    <title lang="ur">Steel &amp; Stories — Tears of Steel</title>
+    <sub-title lang="en">Documentary</sub-title>
+    <desc lang="ur">Science, technology aur insani kahaniyon par ek documentary.</desc>
+    <category lang="en">Documentary</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Docs</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
@@ -6817,488 +6695,126 @@
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
-  <programme start="20261111050000 +0500" stop="20261111053000 +0500" channel="mizanora-noor">
-    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
-    <sub-title lang="en">Hadith</sub-title>
-    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
-    <category lang="en">Hadith</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
+  <programme start="20261119050000 +0500" stop="20261119070000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">FAJR SPECIAL</category>
     <previously-shown />
   </programme>
-  <programme start="20261111053000 +0500" stop="20261111060000 +0500" channel="mizanora-noor">
-    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
-    <sub-title lang="en">Hadith</sub-title>
-    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
-    <category lang="en">Hadith</category>
+  <programme start="20261119070000 +0500" stop="20261119090000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
     <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
+    <credits><actor>MIZANORA Pictures</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">FAJR SPECIAL</category>
     <previously-shown />
   </programme>
-  <programme start="20261111060000 +0500" stop="20261111063000 +0500" channel="mizanora-noor">
-    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
-    <sub-title lang="en">Hadith</sub-title>
-    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
-    <category lang="en">Hadith</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
+  <programme start="20261119090000 +0500" stop="20261119110000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">FAJR SPECIAL</category>
     <previously-shown />
   </programme>
-  <programme start="20261111063000 +0500" stop="20261111070000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
+  <programme start="20261119110000 +0500" stop="20261119130000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
     <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111070000 +0500" stop="20261111073000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111073000 +0500" stop="20261111080000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111080000 +0500" stop="20261111083000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111083000 +0500" stop="20261111090000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111090000 +0500" stop="20261111093000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111093000 +0500" stop="20261111100000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111100000 +0500" stop="20261111103000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111103000 +0500" stop="20261111110000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111110000 +0500" stop="20261111113000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111113000 +0500" stop="20261111120000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111120000 +0500" stop="20261111123000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111123000 +0500" stop="20261111130000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111130000 +0500" stop="20261111133000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111133000 +0500" stop="20261111140000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111140000 +0500" stop="20261111143000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111143000 +0500" stop="20261111150000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111150000 +0500" stop="20261111153000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111153000 +0500" stop="20261111160000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111160000 +0500" stop="20261111163000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111163000 +0500" stop="20261111170000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111170000 +0500" stop="20261111173000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111173000 +0500" stop="20261111180000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111180000 +0500" stop="20261111183000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111183000 +0500" stop="20261111190000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111190000 +0500" stop="20261111193000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111193000 +0500" stop="20261111200000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111200000 +0500" stop="20261111203000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111203000 +0500" stop="20261111210000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111210000 +0500" stop="20261111213000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111213000 +0500" stop="20261111220000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111220000 +0500" stop="20261111223000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111223000 +0500" stop="20261111230000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111230000 +0500" stop="20261111233000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261111233000 +0500" stop="20261112000000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112000000 +0500" stop="20261112003000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112003000 +0500" stop="20261112010000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112010000 +0500" stop="20261112013000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112013000 +0500" stop="20261112020000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112020000 +0500" stop="20261112023000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112023000 +0500" stop="20261112030000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112030000 +0500" stop="20261112033000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112033000 +0500" stop="20261112040000 +0500" channel="mizanora-noor">
-    <title lang="ar">Noor Live Feed</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">HLS live feed.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112040000 +0500" stop="20261112043000 +0500" channel="mizanora-noor">
-    <title lang="ar">Tilawat-e-Quran — Recitation</title>
-    <sub-title lang="en">Quran</sub-title>
-    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
-    <category lang="en">Quran</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
-    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
-    <previously-shown />
-  </programme>
-  <programme start="20261112043000 +0500" stop="20261112050000 +0500" channel="mizanora-noor">
-    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
-    <sub-title lang="en">Hadith</sub-title>
-    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
-    <category lang="en">Hadith</category>
-    <rating><value>U</value></rating>
-    <credits><actor>MIZANORA Noor</actor></credits>
+    <credits><actor>MIZANORA Pictures</actor></credits>
     <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
-    <category lang="en">FAJR SPECIAL</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119130000 +0500" stop="20261119150000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119150000 +0500" stop="20261119170000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119170000 +0500" stop="20261119190000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119190000 +0500" stop="20261119210000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119210000 +0500" stop="20261119230000 +0500" channel="mizanora-movies">
+    <title lang="ur">Cinema Feed — HLS Movie</title>
+    <sub-title lang="en">Cinema</sub-title>
+    <desc lang="ur">HLS native movie feed.</desc>
+    <category lang="en">Cinema</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Network</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119230000 +0500" stop="20261120010000 +0500" channel="mizanora-movies">
+    <title lang="ur">Sintel — Feature Presentation</title>
+    <sub-title lang="en">Fantasy</sub-title>
+    <desc lang="ur">Movie Night ki feature presentation.</desc>
+    <category lang="en">Fantasy</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <category lang="en">MOVIE NIGHT</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261120010000 +0500" stop="20261120030000 +0500" channel="mizanora-movies">
+    <title lang="ur">Big Buck Bunny — Family Hour</title>
+    <sub-title lang="en">Family</sub-title>
+    <desc lang="ur">Family hour.</desc>
+    <category lang="en">Family</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120030000 +0500" stop="20261120050000 +0500" channel="mizanora-movies">
+    <title lang="ur">Tears of Steel — Sci-Fi Night</title>
+    <sub-title lang="en">Sci-Fi</sub-title>
+    <desc lang="ur">Sci-fi special.</desc>
+    <category lang="en">Sci-Fi</category>
+    <rating><value>PG</value></rating>
+    <credits><actor>MIZANORA Pictures</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
     <previously-shown />
   </programme>
   <programme start="20261112050000 +0500" stop="20261112053000 +0500" channel="mizanora-noor">
@@ -10679,6 +10195,490 @@
     <previously-shown />
   </programme>
   <programme start="20261119043000 +0500" stop="20261119050000 +0500" channel="mizanora-noor">
+    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
+    <sub-title lang="en">Hadith</sub-title>
+    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
+    <category lang="en">Hadith</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">FAJR SPECIAL</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119050000 +0500" stop="20261119053000 +0500" channel="mizanora-noor">
+    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
+    <sub-title lang="en">Hadith</sub-title>
+    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
+    <category lang="en">Hadith</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">FAJR SPECIAL</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119053000 +0500" stop="20261119060000 +0500" channel="mizanora-noor">
+    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
+    <sub-title lang="en">Hadith</sub-title>
+    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
+    <category lang="en">Hadith</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">FAJR SPECIAL</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119060000 +0500" stop="20261119063000 +0500" channel="mizanora-noor">
+    <title lang="ar">Hadith-e-Nabawi ﷺ</title>
+    <sub-title lang="en">Hadith</sub-title>
+    <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
+    <category lang="en">Hadith</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-cinematic.jpg" />
+    <category lang="en">FAJR SPECIAL</category>
+    <previously-shown />
+  </programme>
+  <programme start="20261119063000 +0500" stop="20261119070000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119070000 +0500" stop="20261119073000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119073000 +0500" stop="20261119080000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119080000 +0500" stop="20261119083000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119083000 +0500" stop="20261119090000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119090000 +0500" stop="20261119093000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119093000 +0500" stop="20261119100000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119100000 +0500" stop="20261119103000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119103000 +0500" stop="20261119110000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119110000 +0500" stop="20261119113000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119113000 +0500" stop="20261119120000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119120000 +0500" stop="20261119123000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119123000 +0500" stop="20261119130000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119130000 +0500" stop="20261119133000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119133000 +0500" stop="20261119140000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119140000 +0500" stop="20261119143000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119143000 +0500" stop="20261119150000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119150000 +0500" stop="20261119153000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119153000 +0500" stop="20261119160000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119160000 +0500" stop="20261119163000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119163000 +0500" stop="20261119170000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119170000 +0500" stop="20261119173000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119173000 +0500" stop="20261119180000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119180000 +0500" stop="20261119183000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119183000 +0500" stop="20261119190000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119190000 +0500" stop="20261119193000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119193000 +0500" stop="20261119200000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119200000 +0500" stop="20261119203000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119203000 +0500" stop="20261119210000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119210000 +0500" stop="20261119213000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119213000 +0500" stop="20261119220000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119220000 +0500" stop="20261119223000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119223000 +0500" stop="20261119230000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119230000 +0500" stop="20261119233000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261119233000 +0500" stop="20261120000000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120000000 +0500" stop="20261120003000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120003000 +0500" stop="20261120010000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120010000 +0500" stop="20261120013000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120013000 +0500" stop="20261120020000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120020000 +0500" stop="20261120023000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120023000 +0500" stop="20261120030000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120030000 +0500" stop="20261120033000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120033000 +0500" stop="20261120040000 +0500" channel="mizanora-noor">
+    <title lang="ar">Tilawat-e-Quran — Recitation</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">Quran-e-Pak ki tilawat. Apni asli audio/video source se replace karein.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120040000 +0500" stop="20261120043000 +0500" channel="mizanora-noor">
+    <title lang="ar">Noor Live Feed</title>
+    <sub-title lang="en">Quran</sub-title>
+    <desc lang="ar">HLS live feed.</desc>
+    <category lang="en">Quran</category>
+    <rating><value>U</value></rating>
+    <credits><actor>MIZANORA Noor</actor></credits>
+    <icon src="https://muaaziqbalvip.github.io/MIZANORA-TV-LIVE/assets/brand/ident-studio.jpg" />
+    <previously-shown />
+  </programme>
+  <programme start="20261120043000 +0500" stop="20261120050000 +0500" channel="mizanora-noor">
     <title lang="ar">Hadith-e-Nabawi ﷺ</title>
     <sub-title lang="en">Hadith</sub-title>
     <desc lang="ar">Fajr special — Hadith aur nasihah.</desc>
